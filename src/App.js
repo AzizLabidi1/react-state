@@ -26,7 +26,7 @@ else {
   render() {
 return(
 <>
-<button name="start" style={{backgroundColor:"purple", color:"white", border: "none", fontSize:"20px", height:"50px", width:"100px"}} onClick={this.handleClick}> click here </button>
+<button style={{backgroundColor:"purple", color:"white", border: "none", fontSize:"20px", height:"50px", width:"100px"}} onClick={this.handleClick}> click here </button>
     timer :{this.state.timer}
     {(this.state.shows)?(
     <div style={{textAlign:"center"}}>
